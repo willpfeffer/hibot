@@ -1,0 +1,26 @@
+{
+  "name": "hibot",
+  "version": "1.0.0",
+  "description": "#hi enforcer",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willpfeffer/hibot.git"
+  },
+  "author": "will",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willpfeffer/hibot/issues"
+  },
+  "homepage": "https://github.com/willpfeffer/hibot#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "slackbots": "^1.2.0"
+  }
+}
